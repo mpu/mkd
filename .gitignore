@@ -1,0 +1,6 @@
+mkd
+*.sw[po]
+*.o
+*.hi
+*.htm
+*.exe
