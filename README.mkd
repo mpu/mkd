@@ -1,0 +1,23 @@
+# A Haskell Markdown parser
+
+This simple and short Haskell file provides a very partial
+translator from Markdown to HTML. It does not deal with the
+gory details of Markdown.
+
+I did not spent much time having it comply with the spec
+because this one is loose and has many issues. Moreover some
+features provided by Markdown are of little interest to me.
+
+## Features
+
+The code base does what I think is the hard part in Markdown
+parsing: getting a tree-like view of the document when only
+the layout is available. Currently no escaping mechanism nor
+inline formatting is supported but this can be done from the
+list of blocks returned by the current parsing function.
+
+## License
+
+This code is in public domain so you can use it and extend
+it to deal with more complicated subsets of Markdown. I will
+extend it only if I miss a specific feature.
