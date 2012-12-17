@@ -5,7 +5,6 @@ import System.IO
 import Control.Applicative
 import Control.Monad
 import Data.Char(isDigit)
-import Data.Maybe(isNothing)
 
 data MdBlock =
     Code String
